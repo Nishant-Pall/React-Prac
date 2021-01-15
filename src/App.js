@@ -6,12 +6,14 @@ import './App.css';
 // import Counter from './components/Counter'
 import ClassClick from './components/ClassClick';
 import FunctionClick from './components/FunctionClick'
+import EventBind from './components/EventBind'
 
 function App() {
   return (
     <div className="App">
-      <FunctionClick />
-      <ClassClick />
+      {/* <FunctionClick /> */}
+      {/* <ClassClick /> */}
+      <EventBind />
       {/* <Counter /> */}
       {/* <Greet name="Bruce" heroName="Batman" >
         <p>This is children props</p>
