@@ -5,6 +5,7 @@ const Greet = props => {
     return (
         <div>
             <h1>Hello {name} my hero is {heroName}</h1>
+            <p>{props.children}</p>
         </div>
     )
 }
