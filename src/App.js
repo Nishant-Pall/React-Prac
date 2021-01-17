@@ -1,4 +1,5 @@
 import './App.css';
+import NameList from './components/NameList';
 // import Greet from './components/Greet'
 // import Welcome from './components/Welcome'
 // import Hello from './components/Hello'
@@ -8,12 +9,13 @@ import './App.css';
 // import FunctionClick from './components/FunctionClick'
 // import EventBind from './components/EventBind'
 // import ParentComponent from './components/ParentComponent';
-import UserGreetings from './components/UserGreetings';
+// import UserGreetings from './components/UserGreetings';
 
 function App() {
   return (
     <div className="App">
-      <UserGreetings />
+      {<NameList />}
+      {/* <UserGreetings /> */}
       {/* <ParentComponent /> */}
       {/* <FunctionClick /> */}
       {/* <ClassClick /> */}
