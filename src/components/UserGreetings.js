@@ -20,8 +20,8 @@ class UserGreetings extends Component {
     // }
     // else
     //     message = <div>Welcome Guest</div>
-
     // return <div>{message}</div>
+
     // if (this.state.isLoggedIn) {
     //     return (
     //         <div>
