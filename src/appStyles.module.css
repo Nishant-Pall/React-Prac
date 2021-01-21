@@ -1,0 +1,5 @@
+.success{
+    color: green;
+}
+/* css modules help to avoid conflicts as we have to define a variables,
+e.g. the variable styles used in App.js */

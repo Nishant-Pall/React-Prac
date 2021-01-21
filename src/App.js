@@ -1,5 +1,7 @@
 import './App.css';
 import Inline from './components/Inline';
+import './appStyles.css'
+import styles from './appStyles.module.css'
 // import NameList from './components/NameList';
 // import Stylesheet from './components/Stylesheet';
 // import Greet from './components/Greet'
@@ -16,7 +18,9 @@ import Inline from './components/Inline';
 function App() {
   return (
     <div className="App">
-      {<Inline />}
+      <h1 className='error'>Error</h1>
+      <h1 className={styles.success}>Success</h1>
+      {/* {<Inline />} */}
       {/* {<Stylesheet primary={1} />} */}
       {/* {<NameList />} */}
       {/* <UserGreetings /> */}
