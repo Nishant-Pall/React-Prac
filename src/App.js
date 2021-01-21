@@ -1,6 +1,7 @@
 import './App.css';
+import Inline from './components/Inline';
 // import NameList from './components/NameList';
-import Stylesheet from './components/Stylesheet';
+// import Stylesheet from './components/Stylesheet';
 // import Greet from './components/Greet'
 // import Welcome from './components/Welcome'
 // import Hello from './components/Hello'
@@ -15,7 +16,8 @@ import Stylesheet from './components/Stylesheet';
 function App() {
   return (
     <div className="App">
-      {<Stylesheet primary={1} />}
+      {<Inline />}
+      {/* {<Stylesheet primary={1} />} */}
       {/* {<NameList />} */}
       {/* <UserGreetings /> */}
       {/* <ParentComponent /> */}
