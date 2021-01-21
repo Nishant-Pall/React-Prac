@@ -14,6 +14,7 @@ class UserGreetings extends Component {
     // return this.state.isLoggedIn ?
     //     <div>Welcome Nishant</div> :
     //     <div>Welcome Guest</div>
+
     // let message
     // if (this.state.isLoggedIn) {
     //     message = <div>Welcome Nishant</div>
