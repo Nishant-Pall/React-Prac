@@ -1,5 +1,6 @@
 import React from 'react'
 
+// Key prop is not rendered in the child component
 function Person({ person }) {
     return (
         <div>
