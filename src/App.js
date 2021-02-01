@@ -1,8 +1,8 @@
-import './App.css';
-import Inline from './components/Inline';
-import './appStyles.css'
-import styles from './appStyles.module.css'
-import Form from './components/Form';
+// import './App.css';
+// import Inline from './components/Inline';
+// import './appStyles.css'
+// import styles from './appStyles.module.css'
+// import Form from './components/Form';
 import LifecycleA from './components/LifecycleA'
 // import NameList from './components/NameList';
 // import Stylesheet from './components/Stylesheet';
