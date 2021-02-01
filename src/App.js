@@ -3,7 +3,8 @@
 // import './appStyles.css'
 // import styles from './appStyles.module.css'
 // import Form from './components/Form';
-import LifecycleA from './components/LifecycleA'
+// import FragmentDemo from './components/FragmentDemo'
+// import LifecycleA from './components/LifecycleA'
 // import NameList from './components/NameList';
 // import Stylesheet from './components/Stylesheet';
 // import Greet from './components/Greet'
@@ -17,10 +18,14 @@ import LifecycleA from './components/LifecycleA'
 // import ParentComponent from './components/ParentComponent';
 // import UserGreetings from './components/UserGreetings';
 
+import Table from "./components/Table";
+
 function App() {
   return (
     <div className="App">
-      {<LifecycleA />}
+      <Table />
+      {/* <FragmentDemo /> */}
+      {/* {<LifecycleA />} */}
       {/* {<Form />} */}
       {/* <h1 className='error'>Error</h1> */}
       {/* <h1 className={styles.success}>Success</h1> */}
