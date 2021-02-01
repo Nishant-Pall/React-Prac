@@ -18,12 +18,15 @@
 // import ParentComponent from './components/ParentComponent';
 // import UserGreetings from './components/UserGreetings';
 
-import Table from "./components/Table";
+import ParentComp from "./components/ParentComp";
+
+// import { PureComponent } from "react";
 
 function App() {
   return (
     <div className="App">
-      <Table />
+      <ParentComp />
+      {/* <Table /> */}
       {/* <FragmentDemo /> */}
       {/* {<LifecycleA />} */}
       {/* {<Form />} */}
